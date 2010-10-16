@@ -1,0 +1,17 @@
+Some shorthand helper methods for UIViews
+
+Instead of:
+
+self.myUIView.frame = CGRectMake(self.titleLabel.frame.origin.x,
+				60,
+			 	self.titleLabel.frame.size.width,
+				self.titleLabel.frame.size.height);
+
+You can just do:
+
+self.myUIView.frameY = 60;
+
+Other helpers:
+
+self.myUIView.frameSize = CGSizeMake(200, 300);
+self.myUIView.frameOrigin = CGPointMake(10, 50);
