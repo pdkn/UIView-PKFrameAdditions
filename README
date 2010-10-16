@@ -2,10 +2,10 @@ Some shorthand helper methods for UIViews
 
 Instead of:
 
-self.myUIView.frame = CGRectMake(self.titleLabel.frame.origin.x,
+self.myUIView.frame = CGRectMake(self.myUIView.frame.origin.x,
 				60,
-			 	self.titleLabel.frame.size.width,
-				self.titleLabel.frame.size.height);
+			 	self.myUIView.frame.size.width,
+				self.myUIView.frame.size.height);
 
 You can just do:
 
